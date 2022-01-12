@@ -28,7 +28,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/filme" element={<Filme />} />       
+        <Route path="/film/:id" element={<Filme />} />       
         <Route path="/editfilme/:id" element={<EditFilm />} />
         <Route path="/caduser" element={<CadUser />} />
         <Route path="/cadfilm" element={<CadFilme />} />

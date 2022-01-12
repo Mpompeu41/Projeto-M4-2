@@ -1,0 +1,19 @@
+.home{
+  &__title h1{
+    background: linear-gradient(90deg, rgb(1, 6, 49) 0%, rgb(24, 3, 117) 54%, rgb(21, 44, 248) 100%);
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  &__cards{
+    background: linear-gradient(90deg, rgb(1, 6, 49) 0%, rgb(24, 3, 117) 54%, rgb(21, 44, 248) 100%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+}
+
+
+
